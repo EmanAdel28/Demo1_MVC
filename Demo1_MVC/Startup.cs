@@ -38,7 +38,7 @@ namespace Demo1_MVC
                 endpoints.MapControllerRoute
                 (
                     name: "default",
-                    pattern: "{controllers}/{action}"
+                    pattern: "{controllers}/{action}/{id?}"
                     );
                 
             });
