@@ -27,6 +27,7 @@ namespace Demo1_MVC
             }
 
             app.UseRouting();
+            app.UseStaticFiles();
 
             app.UseEndpoints(endpoints =>
             {
